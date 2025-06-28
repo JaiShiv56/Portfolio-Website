@@ -1,3 +1,4 @@
+
 var typed = new Typed(".text",{
    strings: [" Aspiring Developer","Java Coder","Frontend Learner","DSA Problem Solver"],
     typeSpeed: 100,
