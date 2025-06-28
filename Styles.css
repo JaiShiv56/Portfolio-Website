@@ -828,6 +828,17 @@ section{
     padding: 60px 5%;
   }
 
+  .services-container {
+    flex-direction: column;         /* Stack vertically */
+    align-items: center;            /* Center the boxes */
+  }
+
+  .service-box {
+    width: 100%;                    /* Full width of screen */
+    margin-bottom: 20px;            /* Space between boxes */
+    text-align: center;
+  }
+
   .service-box h3 {
     font-size: 20px;
   }
@@ -836,6 +847,7 @@ section{
     font-size: 14px;
   }
 }
+
 
 @media (max-width: 768px) {
   .home {
